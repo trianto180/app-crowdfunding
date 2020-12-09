@@ -23,7 +23,7 @@ class UserSeeder extends Seeder
             'password'              => Hash::make('password'),
             'created_at'            => now(),
             'updated_at'            => now(),
-            'role_id'               => 'aac5960e-5f58-4b72-b23b-140a638ea481'
+            'role_id'               => 'db134db2-c7a3-4c5a-9876-59b4863a5183'
             ],
             [
             'id'                    => Str::uuid(),
@@ -33,7 +33,7 @@ class UserSeeder extends Seeder
             'password'              => Hash::make('password'),
             'created_at'            => now(),
             'updated_at'            => now(),
-            'role_id'               => 'ca71172f-f362-4055-a79b-dfe770145f5e'
+            'role_id'               => '7765211e-0b55-4d6f-a477-258475d66d78'
             ]
         ]);
     }
